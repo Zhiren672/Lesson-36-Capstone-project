@@ -68,6 +68,12 @@
         button:hover {
             background: #ffe0d6;
         }
+
+        .book {
+            width: 500px;
+            text-align: center;
+            
+        }
     </style>
 
 </head>
@@ -97,7 +103,7 @@
                         <a class="nav-link active" aria-current="page" href="#Gallery">Gallery</a>
                     </li>
                     <li class="nav-item fs-4">
-                        <a class="nav-link active" aria-current="page" href="#">Contacts</a>
+                        <a class="nav-link active" aria-current="page" href="#Contacts">Contacts</a>
                     </li>
 
 
@@ -139,11 +145,11 @@
     </div>
     <div class="text-center p-5 my-5 row">
         <div class="col-sm-6">
-            <h3>About us</h3>
-            <p class="mt-3 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora ducimus laudantium
+            <h2>About us</h2>
+            <p class="mt-3 fs-4 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora ducimus laudantium
                 consectetur tempore
                 praesentium eos!</p>
-            <p class="mt-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex rem aperiam voluptatem
+            <p class="mt-3 fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex rem aperiam voluptatem
                 asperiores. Enim
                 nulla rem sit nobis provident porro debitis aliquam? Harum aliquam aperiam labore eos quod blanditiis
                 ratione?</p>
@@ -156,6 +162,10 @@
     <div id="abc">
         <img src="Sale day.avif" alt="" width="100%" height="700px">
     </div>
+    <video width="100%" height="500px" autoplay>
+  <source src="abc.mp4" type="video/mp4" >
+Your browser does not support the video tag.
+</video>
     <div id="Gallery" class="text-center bg-dark p-5 my-5 ">
         <h1 class="text-white">Gallery</h1>
 
@@ -232,11 +242,38 @@
     <div>
         <img src="footwear.webp" alt="">
     </div>
+    <div id="Contacts" class="text-center bg-dark p-5 my-5 ">
+        <h1 class="text-white">Get in touch</h1>
+
+
+    </div>
+
+    <div class="text-center align-items-center d-flex justify-content-center bg-secondary p-5 my-5">
+        <form class="book" action="/action_page.php">
+            <div class="form-floating mb-3 mt-3">
+                <input width="50%" type="text" class="form-control border rounded-pill" id="email" placeholder="Enter email" name="email">
+                <label for="email">Name</label>
+            </div>
+            <div class="form-floating mt-3 mb-3">
+                <input type="text" class="form-control border rounded-pill" id="pwd" placeholder="Enter password" name="pswd">
+                <label for="pwd">Email</label>
+            </div>
+            <div class="form-floating mb-3 mt-3">
+                <input type="text" class="form-control border rounded-pill" id="email" placeholder="Enter email" name="email">
+                <label for="email">Password</label>
+            </div>
+            <button type="submit" class="btn btn-primary  rounded-pill">Submit</button>
+        </form>
+    </div>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1683.2106703251377!2d-68.93994122769229!3d12.105350441858082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8482f64f9f43cd%3A0xc55ea5a2ae3ab4c6!2sRenaissance%20Wind%20Creek%20Curacao%20Resort!5e1!3m2!1sen!2snl!4v1769974444158!5m2!1sen!2snl" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+        
 
 
 </body>
